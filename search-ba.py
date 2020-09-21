@@ -12,7 +12,7 @@ def parse_fasta(path):
         name = name_seq[0]
         seq = "".join(name_seq[1:])
         fasta_list[name] = seq
-        
+        print(hi)
     fasta_file.close()
     return fasta_list
 
